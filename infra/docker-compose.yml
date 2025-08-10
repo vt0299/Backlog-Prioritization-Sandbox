@@ -1,0 +1,16 @@
+services:
+  api:
+    build: ./services/api
+    ports: ["8000:8000"]
+    volumes:
+      - ./:/app
+    environment:
+      - BACKLOG_PATH=/app/backlog.yaml
+  dashboard:
+    build: ./apps/dashboard
+    ports: ["8501:8501"]
+    depends_on: [api]
+    environment:
+      - API_BASE=http://api:8000
+    volumes:
+      - ./:/app
