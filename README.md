@@ -5,7 +5,6 @@ End-to-end, dockerized system to:
 - Compute and visualize **RICE** ranked backlog
 - Track **progress** and **impact metrics**
 - Generate an automatic **Roadmap timeline** (Gantt)
-- Export to GitHub (placeholder endpoint ready)
 
 ## Quick start (local)
 ```bash
