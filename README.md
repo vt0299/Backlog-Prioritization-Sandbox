@@ -43,3 +43,11 @@ backlog.yaml
 - RICE ranking available via `/ranked`
 - Dashboard shows status, top RICE, epic impact
 - Roadmap timeline grouped by epic
+
+
+## Streamlit App output
+
+![Alt text](images/1.png)
+![Alt text](images/2.png)
+![Alt text](images/3.png)
+![Alt text](images/4.png)
